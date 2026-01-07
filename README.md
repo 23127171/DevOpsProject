@@ -334,8 +334,7 @@ docker stop <container_id>
 - **Môn học**: CSC11004 - Mạng máy tính nâng cao
 - **Đề tài**: Triển khai CI/CD sử dụng Git, Jenkins và Docker
 - **Thành viên**:
-  - MSSV_1 - Họ tên SV 1
-  - MSSV_2 - Họ tên SV 2
+  - MSSV_1 - Đỗ  Duy Đông 
 
 ---
 
