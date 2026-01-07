@@ -1,15 +1,4 @@
-# Build stage
-FROM node:18-alpine AS builder
-
-WORKDIR /app
-
-# Copy package files
-COPY package*.json ./
-
-# Install dependencies (if any)
-RUN npm install --production 2>/dev/null || true
-
-# Production stage
+# Simple Node.js Dockerfile
 FROM node:18-alpine
 
 # Create non-root user for security
@@ -18,9 +7,12 @@ RUN addgroup -g 1001 -S nodejs && \
 
 WORKDIR /app
 
-# Copy from builder (node_modules may not exist if no dependencies)
-COPY --from=builder /app/node_modules* ./node_modules/
-COPY --chown=nodejs:nodejs . .
+# Copy source code
+COPY --chown=nodejs:nodejs package*.json ./
+COPY --chown=nodejs:nodejs index.js ./
+
+# Install dependencies (if any)
+RUN npm install --production 2>/dev/null || true
 
 # Set environment variables
 ENV NODE_ENV=production
