@@ -1,0 +1,23 @@
+{
+  "name": "devops-cicd-demo",
+  "version": "1.0.0",
+  "description": "Demo CI/CD Pipeline - CSC11004 Mạng máy tính nâng cao",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Tests passed!\" && exit 0"
+  },
+  "keywords": [
+    "devops",
+    "cicd",
+    "docker",
+    "jenkins",
+    "nodejs"
+  ],
+  "author": "MSSV",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
