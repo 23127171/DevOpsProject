@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         // ⚠️ QUAN TRỌNG: Thay đổi các giá trị này theo thông tin của bạn
-        DOCKERHUB_USERNAME = 'your_dockerhub_username'  // Thay bằng Docker Hub username
+        DOCKERHUB_USERNAME = '23127171'  // Docker Hub username
         IMAGE_NAME = 'devops-cicd-demo'
         IMAGE_TAG = "${BUILD_NUMBER}"
         CONTAINER_NAME = 'devops-app'
