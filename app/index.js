@@ -27,7 +27,7 @@ const server = http.createServer((req, res) => {
         }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #0f3443 0%, #34e89e 50%, #43cea2 100%);
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -43,7 +43,7 @@ const server = http.createServer((req, res) => {
             width: 100%;
         }
         h1 {
-            color: #667eea;
+            color: #34e89e;
             text-align: center;
             margin-bottom: 10px;
             font-size: 2.5em;
@@ -55,11 +55,11 @@ const server = http.createServer((req, res) => {
             font-size: 1.2em;
         }
         .info-card {
-            background: #f8f9fa;
+            background: #f0fff4;
             border-radius: 10px;
             padding: 20px;
             margin: 15px 0;
-            border-left: 4px solid #667eea;
+            border-left: 4px solid #34e89e;
         }
         .info-card h3 {
             color: #333;
@@ -77,7 +77,7 @@ const server = http.createServer((req, res) => {
             gap: 10px;
         }
         .pipeline-step {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #34e89e 0%, #0f3443 100%);
             color: white;
             padding: 15px 25px;
             border-radius: 25px;
@@ -90,7 +90,7 @@ const server = http.createServer((req, res) => {
             right: -20px;
             top: 50%;
             transform: translateY(-50%);
-            color: #667eea;
+            color: #34e89e;
             font-size: 1.5em;
         }
         .server-info {
@@ -117,7 +117,7 @@ const server = http.createServer((req, res) => {
             font-size: 0.9em;
         }
         .version {
-            background: #667eea;
+            background: linear-gradient(135deg, #34e89e 0%, #0f3443 100%);
             color: white;
             padding: 5px 15px;
             border-radius: 15px;
