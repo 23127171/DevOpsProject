@@ -18,6 +18,7 @@
 
 ---
 
+
 ## 📖 Giới thiệu
 
 Dự án này triển khai một quy trình CI/CD hoàn chỉnh với các công cụ:
@@ -334,7 +335,7 @@ docker stop <container_id>
 - **Môn học**: CSC11004 - Mạng máy tính nâng cao
 - **Đề tài**: Triển khai CI/CD sử dụng Git, Jenkins và Docker
 - **Thành viên**:
-  - MSSV_1 - Đỗ  Duy Đông 
+  - 23127171 - Đỗ  Duy Đông 
 
 ---
 
